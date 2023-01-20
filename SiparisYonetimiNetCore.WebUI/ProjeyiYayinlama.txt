@@ -1,0 +1,19 @@
+﻿Yaptığımız projeyi yayına hazırlama
+
+SiparisYonetimiNetCore.WebUI projesine sağ tıklayıp publish seçeneğine tıklıyorum 
+
+Açılan pencerede nereye pulish-projeyi yayınlayacağımızı soruyor 
+
+Folder-klasör seçeneğini seçiyoruz bilgisayara çıktı almak için
+
+Burada istersek browse kısmından başka bir klasör seçebiliriz ya da olduğu gibi brakıp ok dersek projemizin içindeki bin klasörüne çıktı alır.
+
+Bu şekilde yapılandırmayı tamamlamış oluyoruz
+
+Sonrasında çıktı amak için ekrandaki Publish butonuna tıklamamız gerekiyor.
+
+Dikkat !! publish butonuna basmadan önce Database context deki veritabanı ayarlarını hosting frimamızın verdiği canlı veritabanı ayarlarıyla değiştirmemiz gerekir yoksa proje çalışmaz!!
+
+Çıktı işleminden sonra open folder  a basarak proje çıktısının olduğu klasöre gidebilirsiniz.
+
+Yayınlanan projeyi Filezilla gibi bir Ftp programı kullanarak veya direkt sunucu panelimiz üzerinden host sunucusuna yüklememiz gerekir.
